@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 import { db } from '../config/firebase'
 import { Movie } from '../typings'
 
+//Comments//
+
 function useList(uid: string | undefined) {
   const [list, setList] = useState<DocumentData[] | Movie[]>([])
 
