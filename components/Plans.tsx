@@ -35,8 +35,8 @@ function Plans({ products }: Props) {
       <header className="border-b border-white/10 bg-[#141414]">
         <Link href="/">
           <img
-            src="https://rb.gy/ulxxee"
-            alt="Netflix"
+            src="/fitflix.svg"
+            alt="FitFlix"
             width={150}
             height={90}
             className="cursor-pointer object-contain"
